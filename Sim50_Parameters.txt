@@ -1,0 +1,144 @@
+RangeShifter 2.0  - 64 bit implementation
+================    =====================
+
+BATCH MODE 	no
+REPLICATES 	100
+YEARS 	70
+REPRODUCTIVE SEASONS / YEAR	1
+PATCH-BASED MODEL
+No. PATCHES 	12
+BOUNDARIES 	reflective
+
+LANDSCAPE:	imported map
+TYPE: 	habitat codes
+FILE NAME: C:\Users\kilia\OneDrive\Desktop\Otter RS project\RS_Otter_Test\Inputs\Singapore_test_2019_1.txt
+PATCH FILE: C:\Users\kilia\OneDrive\Desktop\Otter RS project\RS_Otter_Test\Inputs\Singapore_Patches_test_2019.txt
+No. HABITATS:	13
+RESOLUTION (m): 	50
+DIMENSIONS:  X 1208  Y 761
+AVAILABLE:   min.X 0 min.Y 0  max.X 1207 max.Y 760
+
+SPECIES DISTRIBUTION LOADED: 	no
+
+ENVIRONMENTAL GRADIENT:	 no
+ENVIRONMENTAL STOCHASTICITY:	no
+LOCAL EXTINCTION PROBABILITY:	0.0
+
+SPECIES' PARAMETERS.
+REPRODUCTION:
+TYPE: Sexual model (simple)
+PROP. of MALES	0.5
+STAGE STRUCTURE:	yes
+PROBABILITY OF REPRODUCING IN SUBSEQUENT SEASONS	1
+No. OF REP. SEASONS BEFORE SUBSEQUENT REPRODUCTIONS	0
+No. STAGES	3
+MAX. AGE	1000
+MIN. AGES:
+stage	0:	0	years
+stage	1:	0	years
+stage	2:	0	years
+FECUNDITIES:
+stage	0:	0
+stage	1:	0
+stage	2:	4.3
+DEVELOPMENT PROB.:
+stage	0:	1
+stage	1:	0.7
+stage	2:	0
+SURVIVAL PROB.:
+stage	0:	0.9
+stage	1:	0.9
+stage	2:	0.95
+SCHEDULING OF SURVIVAL: Between reproductive events
+DENSITY-DEPENDENCE IN FECUNDITY:	yes
+not stage-dependent
+DENSITY-DEPENDENCE IN DEVELOPMENT:	no
+DENSITY-DEPENDENCE IN SURVIVAL:		no
+
+HABITAT SPECIFIC 1/b:
+Habitat 1: 	1/b 0
+Habitat 2: 	1/b 0
+Habitat 3: 	1/b 0
+Habitat 4: 	1/b 0
+Habitat 5: 	1/b 0
+Habitat 6: 	1/b 0
+Habitat 7: 	1/b 0
+Habitat 8: 	1/b 0
+Habitat 9: 	1/b 0
+Habitat 10: 	1/b 0.05
+Habitat 11: 	1/b 0.05
+Habitat 12: 	1/b 0.05
+Habitat 13: 	1/b 0.001
+
+DISPERSAL - EMIGRATION:	density-independent
+SEX-DEPENDENT:   yes
+STAGE-DEPENDENT: yes
+INDIVIDUAL VARIABILITY: no
+stage 0: 	EMIGRATION PROB.: 	females 0 	males 0
+stage 1: 	EMIGRATION PROB.: 	females 0.1 	males 0.5
+stage 2: 	EMIGRATION PROB.: 	females 0.3 	males 0.7
+
+DISPERSAL - TRANSFER: 	SMS	costs:
+	hab. 1	8
+	hab. 2	8
+	hab. 3	6
+	hab. 4	3
+	hab. 5	3
+	hab. 6	5
+	hab. 7	5
+	hab. 8	1
+	hab. 9	1
+	hab. 10	1
+	hab. 11	1
+	hab. 12	1
+	hab. 13	50
+PERCEPTUAL RANGE:        7
+PERCEPTUAL RANGE METHOD: 1
+DIRECTIONAL PERSISTENCE: 5
+MEMORY SIZE: 12
+GOAL TYPE:   0
+INDIVIDUAL VARIABILITY: no 
+STRAIGHTEN PATH AFTER DECISION NOT TO SETTLE: yes
+STEP MORTALITY:	
+constant 0.0001
+
+DISPERSAL - SETTLEMENT:
+MIN. No. OF STEPS:	 0
+MAX. No. OF STEPS:	 not applied
+SEX-DEPENDENT:   yes
+STAGE-DEPENDENT: yes
+FEMALES:
+SETTLE IF: stage 0: 
+find a suitable cell/patch (not the natal one)
+MAX. No. OF STEPS/YEAR:	 not applied
+stage 1: 
+find a suitable cell/patch (not the natal one)
+MAX. No. OF STEPS/YEAR:	 not applied
+stage 2: 
+find a suitable cell/patch + mating requirements
+MAX. No. OF STEPS/YEAR:	 not applied
+MALES:
+SETTLE IF: stage 0: 
+find a suitable cell/patch (not the natal one)
+MAX. No. OF STEPS/YEAR:	 not applied
+stage 1: 
+find a suitable cell/patch (not the natal one)
+MAX. No. OF STEPS/YEAR:	 not applied
+stage 2: 
+find a suitable cell/patch + mating requirements
+MAX. No. OF STEPS/YEAR:	 not applied
+
+GENETICS:
+No. of variable traits:  0
+
+INITIALISATION CONDITIONS:
+From initial individuals file: C:\Users\kilia\OneDrive\Desktop\Otter RS project\RS_Otter_Test\Inputs\InitIndSim20.txt
+
+OUTPUTS:
+Range - every 10 years
+Occupancy - every 10 years
+Populations - every 10 years
+Individuals - every 10 years
+SAVE MAPS: no
+SAVE TRAITS MAPS: no
+SMS HEAT MAPS: no
